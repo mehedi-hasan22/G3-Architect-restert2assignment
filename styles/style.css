@@ -1,3 +1,102 @@
-#hello {
-    color: lightblue;
+/* --------------
+Universal Styles
+------------- */
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+    background-color: #FF900E1A;
+}
+
+.primary {
+    color: #ff3838;
+}
+
+.secondary {
+    color: #001a3f;
+}
+
+.button {
+    color: white;
+    background-color: #ff3838;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #ff383898;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ff3838;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+/* --------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.nav-brand {
+    font-size: 33px;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    color: black;
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-img {
+    height: 70%;
+    width: 900px;
 }
