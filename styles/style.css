@@ -15,7 +15,7 @@ body {
 }
 
 .secondary {
-    color: #001a3f;
+    color: #445874;
 }
 
 .button {
@@ -162,4 +162,25 @@ body {
     padding-left: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 14px;
+}
+
+.facts-text {
+    margin-top: 50px;
+    margin-left: 9vw;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ff3838;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
 }
