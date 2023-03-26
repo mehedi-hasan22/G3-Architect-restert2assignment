@@ -177,6 +177,7 @@ body {
 .facts-text {
     margin-top: 50px;
     margin-left: 9vw;
+    margin-bottom: 50px;
 }
 
 .facts {
@@ -193,6 +194,16 @@ body {
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+.fact:hover {
+    border: 1px solid blue;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #sponsor-text {
