@@ -252,10 +252,6 @@ body {
         width: 75vw;
     }
 
-    .navbar {
-        align-items: center;
-    }
-
     .nav-list {
         flex-direction: column;
         font-size: 12px;
